@@ -1,0 +1,14 @@
+body{
+    background-image: url("../images/fondo.jpg");   
+}
+
+.container{
+    width: 40%;
+    color: white;
+    background-color: gray;
+}
+
+
+.form-group{
+    background-color: aqua;
+}
