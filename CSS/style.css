@@ -1,14 +1,33 @@
 body{
-    background-image: url("../images/fondo.jpg");   
+   background-image: url("../images/fondo.jpg");  
 }
-
 .container{
-    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     color: white;
-    background-color: gray;
+    height: 100vh;
 }
-
-
 .form-group{
-    background-color: aqua;
+    background-color: white;
+    color: black;
+}
+form{
+    background-color: rgb(206, 202, 202);
+}
+#btnAcceder{
+    background-color: aquamarine;
+    border-style: none;
+    color: black;
+}
+#logoLock{
+    width: 3.5rem;
+    opacity: 30%;
+}
+#entradaEnlaces > .btn {
+    background-color: black;
+    border-style: none;
+}
+#logos{
+    width: 1.5rem;
 }
